@@ -15,6 +15,9 @@ def menu():
         elif op == 3:
             print("O resultado é: ", calculadora.multiplicar(a,b))
             print("")
+        elif op == 4:
+            print("O resultado é: ", calculadora.dividir(a,b))
+            print("")
         op = int(input(texto))
     else:
         print('Até mais')
