@@ -9,6 +9,9 @@ def menu():
         if op == 1:
            print("O resultado é: ", calculadora.somar(a, b))
            print("")
+        elif op == 2:
+           print("O resultado é: ", calculadora.subtrair(a, b))
+           print("")
 
         op = int(input(texto))
     else:
