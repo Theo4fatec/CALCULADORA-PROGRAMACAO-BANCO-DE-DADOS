@@ -12,7 +12,9 @@ def menu():
         elif op == 2:
            print("O resultado é: ", calculadora.subtrair(a, b))
            print("")
-
+        elif op == 3:
+            print("O resultado é: ", calculadora.multiplicar(a,b))
+            print("")
         op = int(input(texto))
     else:
         print('Até mais')
